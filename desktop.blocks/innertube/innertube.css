@@ -9,5 +9,13 @@
 	font-size: 110%;
 }
 
-b{font-size: 110%;}
-em{color: red;}
+/* селекторы на теги */
+b
+{
+    font-size: 110%;
+}
+
+em
+{
+    color: red;
+}

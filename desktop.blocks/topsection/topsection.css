@@ -3,7 +3,9 @@
 	background: #EAEAEA;
 	height: 90px; /*Height of top section*/
 }
-.topsection h1{
-margin: 0;
-padding-top: 15px;
+
+.topsection h1
+{
+    margin: 0;
+    padding-top: 15px;
 }
