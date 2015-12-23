@@ -1,0 +1,13 @@
+.innertube
+{
+	margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+	margin-top: 0;
+}
+
+.innertube__title
+{
+	font-size: 110%;
+}
+
+b{font-size: 110%;}
+em{color: red;}

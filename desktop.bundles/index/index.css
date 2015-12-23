@@ -1,0 +1,111 @@
+/* ../../desktop.blocks/maincontainer/maincontainer.css:begin */
+.maincontainer
+{
+}
+/* ../../desktop.blocks/maincontainer/maincontainer.css:end */
+/* ../../desktop.blocks/topsection/topsection.css:begin */
+.topsection
+{
+	background: #EAEAEA;
+	height: 90px; /*Height of top section*/
+}
+.topsection h1{
+margin: 0;
+padding-top: 15px;
+}
+/* ../../desktop.blocks/topsection/topsection.css:end */
+/* ../../desktop.blocks/contentwrapper/contentwrapper.css:begin */
+.contentwrapper
+{
+	float: left;
+	width: 100%;
+}
+/* ../../desktop.blocks/contentwrapper/contentwrapper.css:end */
+/* ../../desktop.blocks/contentcolumn/contentcolumn.css:begin */
+.contentcolumn
+{
+	margin: 0 15% 0 20%; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+}
+/* ../../desktop.blocks/contentcolumn/contentcolumn.css:end */
+/* ../../desktop.blocks/innertube/innertube.css:begin */
+.innertube
+{
+	margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+	margin-top: 0;
+}
+
+.innertube__title
+{
+	font-size: 110%;
+}
+
+b{font-size: 110%;}
+em{color: red;}
+/* ../../desktop.blocks/innertube/innertube.css:end */
+/* ../../desktop.blocks/leftcolumn/leftcolumn.css:begin */
+.leftcolumn
+{
+	float: left;
+	width: 20%; /*Width of left column in percentage*/
+	margin-left: -100%;
+	background: #C8FC98;
+}
+/* ../../desktop.blocks/leftcolumn/leftcolumn.css:end */
+/* ../../desktop.blocks/rightcolumn/rightcolumn.css:begin */
+.rightcolumn
+{
+	float: left;
+	width: 15%; /*Width of right column in pixels*/
+	margin-left: -15%; /*Set margin to that of -(RightColumnWidth)*/
+	background: #FDE95E;
+}
+/* ../../desktop.blocks/rightcolumn/rightcolumn.css:end */
+/* ../../desktop.blocks/footer/footer.css:begin */
+.footer
+{
+	clear: left;
+	width: 100%;
+	background: black;
+	color: #FFF;
+	text-align: center;
+	padding: 4px 0;
+}
+/* ../../desktop.blocks/footer/footer.css:end */
+/* ../../desktop.blocks/page/page.css:begin */
+.page
+{
+	font: 13px Helvetica, Arial, sans-serif;
+	/*border: 1px solid red;*/
+	margin: 0;
+	padding: 0;
+}
+
+/* ####### responsive layout CSS ####### */
+
+@media (max-width: 840px){ /* 1st level responsive layout break point- drop right column down*/
+	
+	.rightcolumn{
+	float: none;
+	width: 100%;
+	margin-left: 0;
+	clear: both;
+	}
+	
+	.contentcolumn{
+	margin-right: 0;
+	}
+}
+
+@media (max-width: 600px){ /* 2nd level responsive layout break point- drop left column down */
+	.leftcolumn{
+	float: none;
+	width: 100%;
+	clear: both;
+	margin-left: 0;
+	}
+	
+	.contentcolumn{
+	margin-left: 0;
+	}
+}
+/* ../../desktop.blocks/page/page.css:end */
